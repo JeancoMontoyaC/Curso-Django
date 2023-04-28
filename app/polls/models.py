@@ -8,8 +8,10 @@ class Question(models.Model):
 
     def __str__(self):
         return self.question
+    
     def was_published_recently(self):
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+    
     class Meta:
         ordering = ["pk"]
         verbose_name_plural = "Preguntas de la Encuesta"
