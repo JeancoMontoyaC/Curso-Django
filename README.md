@@ -2,11 +2,6 @@
   <h1>Guía para proyectos en Django</h1>
 </div>
 
-<div align="center">
-  <img src="./imgs/django_2.png"
-    width="60%"
-   alt="hello-world-capture">
-</div>
 
 # Tabla de contenido
 - [Preparando entorno](#Preparando-entorno)
